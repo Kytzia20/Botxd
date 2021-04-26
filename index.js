@@ -101,9 +101,9 @@ const {
   //--Kontak
   const vcard = 'BEGIN:VCARD\n'
   + 'VERSION:3.0\n'
-  + 'FN:Mr.Pato\n' // Nama
-  + 'ORG:Mr.Pato-Bot;\n' // Nama bot
-  + 'TEL;type=CELL;type=VOICE;waid=447520607252:+44 7520 607252n' // Nomor bot
+  + 'FN:Kytzia\n' // Nama
+  + 'ORG:Kytzia;\n' // Nama bot
+  + 'TEL;type=CELL;type=VOICE;waid=51935684086:+51 935 684 086n' // Nomor bot
   + 'END:VCARD' 
   
   
@@ -319,9 +319,9 @@ const {
 			  const isCmd = body.startsWith(prefix)
 		const is = budy.slice(0).trim().split(/ +/).shift().toLowerCase()
 			  mess = {
-	wait: '⏳ Espera ',
-	success: '🎉 Con exito',
-	Public: '🛡 Modo privado activado',
+	wait: '⏳ Espera mmg ',
+	success: 'Ok pero ya viste a Kytzia ',
+	Public: 'Modo privado activado',
 	ferr: 'Lo siento ocurrio un error',
 	limitend: 'El tiempo se agoto',
 	error: {
@@ -578,14 +578,14 @@ const {
 	if (!isRegister) return reply(mess.only.daftarB)
 	uptime = process.uptime()
 	const Menu = {
-  text: `  ────𝕸𝖗.𝕻𝖆𝖙𝖔 -𝕭𝖔𝖙⚜️🦆────
+  text: `  ────𝕸𝖗.𝕶───
   ────────────────
   Hola *${pushname}* 
   ────────────────͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
   ────────────────
   〘 *BOT* 〙
   ‣ Prefijo:  *「 ${prefix} 」*
-  ‣ Yo soy: 𝕸𝖗.𝕻𝖆𝖙𝖔 -𝕭𝖔𝖙⚜️🦆
+  ‣ Yo soy: Kytzia 👩‍🦲
   ‣ Conección: *Baileys*
   ‣ Tiempo encencido: *${kyun(uptime)}*
   ‣ Modo: *ON*
@@ -598,7 +598,7 @@ const {
   _${Ig}_
   ────────────────
   ┏━━━━━━━━━━━━━━━━━━━━
-  ┃─────〘 𝕸𝖗.𝕻𝖆𝖙𝖔 -𝕭𝖔𝖙⚜️🦆 〙────
+  ┃─────〘 𝕶𝖞𝖙𝖟𝖎𝖆 〙────
   ┃━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Simi (Teks)*
   ┃ _Simsimi Chat_
@@ -975,7 +975,7 @@ const {
 	uptime = process.uptime()
 	teks = `*‣ Nombre del bot* : ${me.name}
 	‣ *Número del bot* : @${me.jid.split('@')[0]}
-	‣ *Dueño* : Mr.Pato
+	‣ *Dueño* : Kytzia
 	‣ *Prefijo* : ${prefix}
 	‣ *Usuarios bloqueados* : ${blocked.length}
 	‣ *Tiempo activo* : ${kyun(uptime)}
@@ -1146,7 +1146,7 @@ const {
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `Mr.Pato-Bot`
+	quoted: mek, caption: `Kytzia-Bot`
   })
   
   } catch {
@@ -1170,7 +1170,7 @@ const {
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `Mr.Pato-Bot`
+	quoted: mek, caption: `Te va a caer el FBI 😡`
   })
   
   } catch {
@@ -1224,7 +1224,7 @@ const {
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `Mr.Pato-Bot`
+	quoted: mek, caption: `Kytzia-Bot`
   })
   
   break
@@ -1249,7 +1249,7 @@ const {
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.Pato-Bot`
+  quoted: mek, caption: `Kytzia-Bot`
 	})
 	
 	} catch {
@@ -1279,7 +1279,7 @@ const {
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.Pato-Bot`
+  quoted: mek, caption: `Kytzia-Bot`
 	})
 	
 	} catch {
@@ -1305,7 +1305,7 @@ const {
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.Pato-Bot`
+  quoted: mek, caption: `Kytzia-Bot`
 	})
 	
 	} catch {
@@ -1331,7 +1331,7 @@ const {
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.pato-Bot`
+  quoted: mek, caption: `Kytzia-Bot`
 	})
 	
 	} catch {
@@ -1776,7 +1776,7 @@ const {
 	})
   
   } else {
-	reply('Manda la foto')
+	reply('Manda la foto gonorrea')
   }
   break
   
@@ -1792,7 +1792,7 @@ const {
 	hehe = await getBuffer(`https://videfikri.com/api/textmaker/pencil/?urlgbr=${anu.display_url}`)
    Lxa.sendMessage(from, hehe, image, {quoted:mek})
   } else {
-	reply('Manda la foto')
+	reply('Manda la foto gonorrea')
   }
   break
   
@@ -1809,7 +1809,7 @@ const {
 	hehe = await getBuffer(`https://videfikri.com/api/textmaker/wanted/?urlgbr=${anu.display_url}&text1=Dicari&text2=${tels}`)
    Lxa.sendMessage(from, hehe, image, {quoted:mek})
   } else {
-	reply('Manda la foto')
+	reply('Manda la foto gonorrea')
   }
   break
   
@@ -1825,7 +1825,7 @@ const {
 	hehe = await getBuffer(`https://videfikri.com/api/textmaker/gtavposter/?urlgbr=${anu.display_url}`)
    Lxa.sendMessage(from, hehe, image, {quoted:mek})
   } else {
-	reply('Manda la foto')
+	reply('Manda la foto gonorrea')
   }
   break
   
@@ -2824,7 +2824,7 @@ const {
 								  console.log(`Error : ${err}`)
 								  fs.unlinkSync(media)
 								  tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-								  reply(`❌ Gagal, pada saat mengkonversi ${tipe} ke stiker`)
+								  reply(`❌ no ahí ${tipe} xd`)
 							  })
 							  .on('end', function () {
 								  console.log('Finish')
